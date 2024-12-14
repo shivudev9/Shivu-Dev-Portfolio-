@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivu Dev - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #555;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .experience, .education {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shivu Dev</h1>
+        <p>Operation Manager | 14 Years of Experience</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Highly accomplished Operation Manager with 14 years of experience leading teams to achieve exceptional results. Proven expertise in logistics, inventory management, and customer satisfaction. Adept at implementing quality control measures and streamlining operations to enhance productivity.</p>
+        <p><strong>Phone:</strong> 07760889649</p>
+        <p><strong>Email:</strong> shivudev9@gmail.com</p>
+        <p><strong>Address:</strong> #159, Basavalingappa Layout, Near Sambhram College, Bengaluru, Karnataka.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Operation Manager - Renown (Do What You Love)</h3>
+            <p><em>April 2021 - Present, Bengaluru</em></p>
+            <ul>
+                <li>Overseeing daily operations and ensuring productivity.</li>
+                <li>Managing staff and performance metrics.</li>
+                <li>Supporting creators with content management and strategy.</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h3>Branch Manager - Vxpress</h3>
+            <p><em>October 2018 - March 2021, Bengaluru</em></p>
+            <ul>
+                <li>Coordinated transportation and logistics activities.</li>
+                <li>Handled client escalations and maintained vendor relationships.</li>
+                <li>Managed daily delivery operations and e-way bill generation.</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h3>Hub Operation Supervisor - FedEx Express</h3>
+            <p><em>April 2015 - September 2018, Bengaluru</em></p>
+            <ul>
+                <li>Managed inbound and outbound operations at the hub.</li>
+                <li>Maintained inventory and analyzed data for reports.</li>
+                <li>Handled return and damaged goods processes.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>UI/UX Design</strong> - Arena Animation Jayanagar (2020 - 2021)</li>
+            <li><strong>Bachelor of Commerce</strong> - LBS Govt College (2007 - 2010)</li>
+            <li><strong>2nd PUC</strong> - Malleshwaram Govt Boys College (2006 - 2007)</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Stakeholder Relationship Management</li>
+            <li>Customer Service and Assistance</li>
+            <li>Leadership and Team Management</li>
+            <li>Vendor and Supplier Relationship Management</li>
+            <li>Time Management</li>
+            <li>Supply Chain Management</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shivu Dev. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
